@@ -30,5 +30,30 @@ int main()
     printf("int %u\n", R_unsignet_int);
 
     printf("int %d\n", R_unsignet_int);
+
+
+    int a = 15;
+    int b;
+    int c;
+    int d;
+
+    printf("Please value for variable a:\n");
+    scanf("%d", &a);
+
+    printf("Please value for variable a\n");
+    scanf("%d", &b);
+
+    printf("Please value for variable a\n");
+    scanf("%d", &c);
+
+    printf("Please value for variable a\n");
+    scanf("%d", &d);
+
+    printf("The value form the Variable %d\n", a);
+    printf("The value form the Variable %d\n", b);
+    printf("The value form the Variable %d\n", c);
+    printf("The value form the Variable %d\n", d);
+
+
     return 0;
 }
