@@ -26,6 +26,66 @@ int main()
     // long double	    19 Stellen	    -1,1E+4932	                +1,1E+4932	                80 Bit, 10 Byte
 
 
+    // bool (Boolean)
+    /* Eine boolesche Variable wird mit dem boolSchlüsselwort deklariert und kann nur die Werte trueoder annehmen false: */
+
+    // char
+    /* Der charDatentyp wird verwendet, um ein einzelnes Zeichen zu speichern.
+    Das Zeichen muss in einfache Anführungszeichen eingeschlossen werden, wie 'A' oder 'c': */
+
+    // unsigned char
+    /* unsigned char ist ein Zeichendatentyp, bei dem die Variable alle 8 Bits des
+    Speichers verbraucht und es kein Vorzeichenbit gibt (das in signed char vorhanden ist).
+    Das bedeutet also, dass der Bereich des Datentyps unsigned char von 0 bis 255 reicht. */
+
+    // int 16
+    /* Verwenden Sie int diese Option, wenn Sie eine ganze Zahl ohne Dezimalstellen
+    wie 35 oder 1000 speichern müssen, floatoder doublewenn Sie eine Gleitkommazahl
+    (mit Dezimalstellen) wie 9,99 oder 3,14515 benötigen. */
+
+    // unsigned int 16
+    /* Ein vorzeichenloser Datentyp kann nur positive Werte speichern. */
+
+    // int 32
+    /* Veränderte Grösse zu Int 16 Bit, 2 Byte */
+
+    // unsigned int 32
+    /* Veränderte Grösse ohen Vorzeichen zu unsigned Int 16 Bit, 2 Byte */
+
+    // int 64
+    /* Veränderte Grösse zu Int 16 Bit, 2 Byte */
+
+    // unsigned int 64
+    /* Veränderte Grösse ohen Vorzeichen zu unsigned Int 16 Bit, 2 Byte */
+
+    // short
+    /*  */
+
+    // unsigned short
+    /*  */
+
+    // long
+    /*  */
+
+    // unsigned long
+    /*  */
+
+    // long long
+    /*  */
+
+    // unsigned long long
+    /*  */
+
+    // Genauigkeit
+    // float
+    /*  */
+
+    // double
+    /*  */
+
+    // long double
+    /*  */
+
     printf("Hello World!\n");
 
     float my_number_A = 15;
