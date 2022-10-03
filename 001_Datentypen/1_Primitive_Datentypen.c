@@ -28,23 +28,26 @@ int main()
 
     // bool (Boolean)
     /* Eine boolesche Variable wird mit dem boolSchlüsselwort deklariert und kann nur die Werte trueoder annehmen false: */
-    bool Boolean = false;
-    Boolean = false;
-    Boolean = true;
-    printf("Datentyp %d\n", Boolean);
+    //bool Boolean = false;
+    //Boolean = false;
+    //Boolean = true;
+    //printf("Datentyp %d\n", Boolean);
 
     // char
     /* Der charDatentyp wird verwendet, um ein einzelnes Zeichen zu speichern.
     Das Zeichen muss in einfache Anführungszeichen eingeschlossen werden, wie 'A' oder 'c': */
-    char ASCI = 'A';
+    /* WEB Link
+    https://www.torsten-horn.de/techdocs/ascii.htm */
+
+    char ASCI = 'A'; // A = 65
     printf("Datentyp %d\n", ASCI);
-    char ASCI = 'a';
+    char ASCI = 'a'; // a = 97
     printf("Datentyp %d\n", ASCI);
-    char ASCI = 'Z';
+    char ASCI = 'Z'; // Z = 90
     printf("Datentyp %d\n", ASCI);
-    char ASCI = 'z';
+    char ASCI = 'z'; // z = 122
     printf("Datentyp %d\n", ASCI);
-    char ASCI = '0';
+    char ASCI = '0'; // 0 = 13
     printf("Datentyp %d\n", ASCI);
 
     // unsigned char
